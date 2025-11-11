@@ -69,7 +69,7 @@ function App() {
             objectFit: "cover",
           }}
         >
-          <source src="/videos/presentation.mp4" type="video/mp4" />
+          <source src="./videos/presentation.mp4" type="video/mp4" />
           Your browser does not support video playback.
         </video>
       </Grid>
