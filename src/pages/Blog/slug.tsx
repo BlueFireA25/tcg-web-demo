@@ -213,7 +213,7 @@ export default function BlogPost() {
           <Box display={"flex"} alignItems={"center"} gap={2} mb={2}>
             <Box
               component="img"
-              src="${import.meta.env.BASE_URL}images/blog/support.webp"
+              src="./images/blog/support.webp"
               alt="Icono de Soporte TCG Scout"
               sx={{
                 borderRadius: "16px 16px 0 0",
@@ -300,7 +300,7 @@ export default function BlogPost() {
               >
                 <Box
                   component="img"
-                  src="${import.meta.env.BASE_URL}images/facebook_logo.svg"
+                  src="./images/facebook_logo.svg"
                   alt="Facebook de TCG Scout"
                   sx={{
                     width: "32px",
@@ -319,7 +319,7 @@ export default function BlogPost() {
               >
                 <Box
                   component="img"
-                  src="${import.meta.env.BASE_URL}images/x_logo.svg"
+                  src="./images/x_logo.svg"
                   alt="X (Twitter) de TCG Scout"
                   sx={{
                     width: "32px",
@@ -338,7 +338,7 @@ export default function BlogPost() {
               >
                 <Box
                   component="img"
-                  src="${import.meta.env.BASE_URL}images/linkedin_logo.svg"
+                  src="./images/linkedin_logo.svg"
                   alt="LinkedIn de TCG Scout"
                   sx={{
                     width: "32px",

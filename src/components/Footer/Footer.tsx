@@ -239,7 +239,7 @@ export default function Footer() {
           <Grid display={"flex"} flexDirection={"column"} gap={2}>
             <Box
               component="img"
-              src="${import.meta.env.BASE_URL}images/TCG_logo.webp"
+              src="./images/TCG_logo.webp"
               alt="Logo de TCG Scout - Seek & Display"
               sx={{
                 width: "250px",
@@ -274,7 +274,7 @@ export default function Footer() {
             <Box display={"flex"} alignItems={"center"} gap={1}>
               <Box
                 component="img"
-                src="${import.meta.env.BASE_URL}images/pdf_logo.svg"
+                src="./images/pdf_logo.svg"
                 alt="Logo de PDF"
                 sx={{
                   objectFit: "cover",
@@ -321,7 +321,7 @@ export default function Footer() {
                 <Box display={"flex"} gap={3}>
                   <Box
                     component="img"
-                    src="${import.meta.env.BASE_URL}images/facebook_logo.svg"
+                    src="./images/facebook_logo.svg"
                     alt="Facebook de TCG Scout"
                     sx={{
                       objectFit: "cover",
@@ -329,7 +329,7 @@ export default function Footer() {
                   />
                   <Box
                     component="img"
-                    src="${import.meta.env.BASE_URL}images/linkedin_logo.svg"
+                    src="./images/linkedin_logo.svg"
                     alt="LinkedIn de TCG Scout"
                     sx={{
                       objectFit: "cover",
@@ -337,7 +337,7 @@ export default function Footer() {
                   />
                   <Box
                     component="img"
-                    src="${import.meta.env.BASE_URL}images/instagram_logo.svg"
+                    src="./images/instagram_logo.svg"
                     alt="Instagram de TCG Scout"
                     sx={{
                       objectFit: "cover",
@@ -352,7 +352,7 @@ export default function Footer() {
                 <Box display={"flex"} gap={3}>
                   <Box
                     component="img"
-                    src="${import.meta.env.BASE_URL}images/googleplay_logo.webp"
+                    src="./images/googleplay_logo.webp"
                     alt="Google Play"
                     sx={{
                       objectFit: "cover",
@@ -360,7 +360,7 @@ export default function Footer() {
                   />
                   <Box
                     component="img"
-                    src="${import.meta.env.BASE_URL}images/appstore_logo.webp"
+                    src="/images/appstore_logo.webp"
                     alt="App Store"
                     sx={{
                       objectFit: "cover",
@@ -372,7 +372,7 @@ export default function Footer() {
             <Grid container display={"flex"} justifyContent={"center"} gap={4}>
               <Box
                 component="img"
-                src="${import.meta.env.BASE_URL}images/google_play_protect.webp"
+                src="./images/google_play_protect.webp"
                 alt="Icono de Google Play Protect"
                 sx={{
                   objectFit: "contain",
@@ -380,7 +380,7 @@ export default function Footer() {
               />
               <Box
                 component="img"
-                src="${import.meta.env.BASE_URL}images/iso_logo.webp"
+                src="./images/iso_logo.webp"
                 alt="Certificado Internacional ISO/IEC 27001"
                 sx={{
                   width: "120px",
@@ -389,7 +389,7 @@ export default function Footer() {
               />
               <Box
                 component="img"
-                src="${import.meta.env.BASE_URL}images/promising_logo.webp"
+                src="./images/promising_logo.webp"
                 alt="Premio Promising"
                 sx={{
                   width: "120px",
