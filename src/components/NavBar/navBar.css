@@ -1,0 +1,22 @@
+.navbar {
+  background-color: white !important;
+  box-shadow: none !important;
+  padding: 28px 0;
+}
+
+.navbar__toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar__links {
+  border: 1px solid #ecedef;
+  border-radius: 1000px;
+  box-shadow: 0 0 0 1px rgba(14, 63, 126, 0.04),
+    0 1px 1px 0 rgba(42, 51, 69, 0.04), 0 3px 3px 0 rgba(42, 51, 70, 0.04),
+    0 6px 6px 0 rgba(42, 51, 70, 0.04), 0 12px 12px 0 rgba(42, 51, 70, 0.04),
+    0 24px 24px 0 rgba(14, 63, 126, 0.04);
+  gap: 24px;
+}

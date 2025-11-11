@@ -1,0 +1,98 @@
+.carousel-images {
+  position: relative;
+  border-radius: 10px;
+  height: 400px;
+  max-width: 650px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-images__background,
+.carousel-images motion-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  object-fit: cover;
+}
+
+.slide_direction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  background: linear-gradient(108deg, #2d65ab 0%, #9400d3 98.96%);
+  color: #fff;
+  border-radius: 50%;
+  padding: 8px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.left {
+  left: 15px;
+}
+
+.right {
+  right: 15px;
+}
+
+.left:hover,
+.right:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-indicator {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dot {
+  background-color: #333;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.active {
+  background: linear-gradient(108deg, #2d65ab 0%, #9400d3 98.96%);
+}
+
+.carousel-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), transparent);
+  color: white;
+  text-align: left;
+  border-radius: 0 0 8px 8px;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: left;
+  border-radius: 0 0 8px 8px;
+}

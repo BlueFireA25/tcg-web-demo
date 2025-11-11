@@ -1,0 +1,54 @@
+.StepButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.StepButton .MuiStepLabel-horizontal {
+  flex-direction: column;
+}
+
+.StepButton .MuiStepLabel-label.Mui-active {
+  color: white;
+}
+
+.StepButton .MuiStepLabel-iconContainer {
+  padding: 0 8px;
+}
+
+.MuiStepConnector-line {
+  position: relative;
+  overflow: visible;
+}
+
+@media (min-width: 1080px) {
+  .MuiStepper-root
+    .MuiStepConnector-root:nth-of-type(2)
+    .MuiStepConnector-line::after {
+    content: "Procesos Operativos";
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #2d65ab;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  .MuiStepper-root
+    .MuiStepConnector-root:nth-of-type(4)
+    .MuiStepConnector-line::after {
+    content: "Procesos Logísticos";
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #2d65ab;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+}
