@@ -213,7 +213,7 @@ export default function BlogPost() {
           <Box display={"flex"} alignItems={"center"} gap={2} mb={2}>
             <Box
               component="img"
-              src="./images/blog/support.webp"
+              src="../images/blog/support.webp"
               alt="Icono de Soporte TCG Scout"
               sx={{
                 borderRadius: "16px 16px 0 0",

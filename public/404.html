@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=../tcg-web-demo/" />
+  </head>
+  <body>
+    <script>
+      const repo = "/tcg-web-demo";
+      const redirect = window.location.pathname.replace(repo, "");
+      window.location.replace(`${repo}/?redirect=${redirect}`);
+    </script>
+  </body>
+</html>
