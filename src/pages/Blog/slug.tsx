@@ -300,7 +300,7 @@ export default function BlogPost() {
               >
                 <Box
                   component="img"
-                  src="./images/facebook_logo.svg"
+                  src="../images/facebook_logo.svg"
                   alt="Facebook de TCG Scout"
                   sx={{
                     width: "32px",
@@ -319,7 +319,7 @@ export default function BlogPost() {
               >
                 <Box
                   component="img"
-                  src="./images/x_logo.svg"
+                  src="../images/x_logo.svg"
                   alt="X (Twitter) de TCG Scout"
                   sx={{
                     width: "32px",
@@ -338,7 +338,7 @@ export default function BlogPost() {
               >
                 <Box
                   component="img"
-                  src="./images/linkedin_logo.svg"
+                  src="../images/linkedin_logo.svg"
                   alt="LinkedIn de TCG Scout"
                   sx={{
                     width: "32px",
