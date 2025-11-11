@@ -55,36 +55,36 @@ function App() {
         <Grid container justifyContent="space-between">
           {[
             {
-              banner: "/images/blog/banner1.webp",
+              banner: "./images/blog/banner1.webp",
               title:
                 "En TCG redefinimos la cultura de atención de nuestros clientes",
               date: "9 Oct 2025 - 2 min.",
             },
             {
-              banner: "/images/blog/banner2.webp",
+              banner: "./images/blog/banner2.webp",
               title:
                 "En qué consiste una auditoría de ejecución en el punto de venta",
               date: "23 Sep 2025 - 3 min.",
             },
             {
-              banner: "/images/blog/banner3.webp",
+              banner: "./images/blog/banner3.webp",
               title: "Cómo los datos contribuyen a la experiencia de compra",
               date: "15 Jun 2025 - 3 min.",
             },
             {
-              banner: "/images/blog/banner4.webp",
+              banner: "./images/blog/banner4.webp",
               title:
                 "Cómo la gestión de datos aporta a la cadena de suministro",
               date: "7 Abr 2025 - 4 min.",
             },
             {
-              banner: "/images/blog/banner5.webp",
+              banner: "./images/blog/banner5.webp",
               title:
                 "Como han cambiado los hábitos en el retail despues de la pandemia",
               date: "9 Mar 2025 - 6 min.",
             },
             {
-              banner: "/images/blog/banner6.webp",
+              banner: "./images/blog/banner6.webp",
               title:
                 "La Inteligencia Artificial y el Machine Learning combinado con Big Data",
               date: "27 Ene 2025 - 3 min.",
@@ -141,7 +141,7 @@ function App() {
                     <Box display={"flex"} alignItems={"center"} gap={2} mb={2}>
                       <Box
                         component="img"
-                        src="/images/blog/support.webp"
+                        src="./images/blog/support.webp"
                         alt="Icono de Soporte TCG Scout"
                         sx={{
                           borderRadius: "16px 16px 0 0",
@@ -207,7 +207,7 @@ function App() {
                         >
                           <Box
                             component="img"
-                            src="/images/facebook_logo.svg"
+                            src="./images/facebook_logo.svg"
                             alt="Facebook de TCG Scout"
                             sx={{
                               width: "32px",
@@ -226,7 +226,7 @@ function App() {
                         >
                           <Box
                             component="img"
-                            src="/images/x_logo.svg"
+                            src="./images/x_logo.svg"
                             alt="X (Twitter) de TCG Scout"
                             sx={{
                               width: "32px",
@@ -245,7 +245,7 @@ function App() {
                         >
                           <Box
                             component="img"
-                            src="/images/linkedin_logo.svg"
+                            src="./images/linkedin_logo.svg"
                             alt="LinkedIn de TCG Scout"
                             sx={{
                               width: "32px",

@@ -165,7 +165,7 @@ export default function HorizontalNonLinearStepper() {
                       >
                         <Box
                           component="img"
-                          src={`/images/TCGExplain/security_person.webp`}
+                          src={`./images/TCGExplain/security_person.webp`}
                           alt="Imagen de seguridad de la App de TCG Scout"
                           sx={{
                             width: "360px",
@@ -186,7 +186,7 @@ export default function HorizontalNonLinearStepper() {
                           >
                             <Box
                               component="img"
-                              src="/images/iso_logo.webp"
+                              src="./images/iso_logo.webp"
                               alt="Certificado Internacional ISO/IEC 27001"
                               sx={{
                                 width: "170px",
@@ -204,7 +204,7 @@ export default function HorizontalNonLinearStepper() {
                           >
                             <Box
                               component="img"
-                              src="/images/promising_logo.webp"
+                              src="./images/promising_logo.webp"
                               alt="Premio Promising"
                               sx={{
                                 width: "170px",
@@ -234,7 +234,7 @@ export default function HorizontalNonLinearStepper() {
                             >
                               <Box
                                 component="img"
-                                src="/images/googleplay_logo.webp"
+                                src="./images/googleplay_logo.webp"
                                 alt="Google Play"
                                 sx={{
                                   width: "170px",
@@ -264,7 +264,7 @@ export default function HorizontalNonLinearStepper() {
                             >
                               <Box
                                 component="img"
-                                src="/images/appstore_logo.webp"
+                                src="./images/appstore_logo.webp"
                                 alt="App Store"
                                 sx={{
                                   width: "170px",
@@ -399,7 +399,7 @@ export default function HorizontalNonLinearStepper() {
                       >
                         <Box
                           component="img"
-                          src={`/images/TCGExplain/person_photo.webp`}
+                          src={`./images/TCGExplain/person_photo.webp`}
                           alt="Persona usando la App de TCG Scout"
                           sx={{
                             width: "360px",
@@ -580,7 +580,7 @@ export default function HorizontalNonLinearStepper() {
                       >
                         <Box
                           component="img"
-                          src={`/images/TCGExplain/mcperson.webp`}
+                          src={`./images/TCGExplain/mcperson.webp`}
                           alt="Empleado de Mcdonals"
                           sx={{
                             width: "360px",
@@ -679,7 +679,7 @@ export default function HorizontalNonLinearStepper() {
                   <Box
                     key={index}
                     component="img"
-                    src={`/images/TCGExplain/${step.logo}.webp`}
+                    src={`./images/TCGExplain/${step.logo}.webp`}
                     alt={step.label}
                     sx={{
                       objectFit: "cover",

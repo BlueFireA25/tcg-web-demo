@@ -61,7 +61,7 @@ function App() {
       >
         <Box
           component="img"
-          src={`/images/about/teamtcg.webp`}
+          src={`./images/about/teamtcg.webp`}
           alt="Equipo de TCG Scout"
           sx={{
             width: "100%",
@@ -80,11 +80,11 @@ function App() {
           }}
         >
           {[
-            { src: "/images/about/TCGIntegrity.avif", label: "#INTEGRIDAD" },
-            { src: "/images/about/TCGPasion.avif", label: "#PASIÓN" },
-            { src: "/images/about/TCGExcellence.avif", label: "#EXCELENCIA" },
-            { src: "/images/about/TCGHappy.avif", label: "#FELICIDAD" },
-            { src: "/images/about/TCGRespect.avif", label: "#RESPETO" },
+            { src: "./images/about/TCGIntegrity.avif", label: "#INTEGRIDAD" },
+            { src: "./images/about/TCGPasion.avif", label: "#PASIÓN" },
+            { src: "./images/about/TCGExcellence.avif", label: "#EXCELENCIA" },
+            { src: "./images/about/TCGHappy.avif", label: "#FELICIDAD" },
+            { src: "./images/about/TCGRespect.avif", label: "#RESPETO" },
           ].map(({ src, label }) => (
             <Grid
               key={label}

@@ -16,7 +16,7 @@ import Carousel from "./Carousel";
 
 const images = [
   {
-    logo: "/images/logos/mcdonals.webp",
+    logo: "./images/logos/mcdonals.webp",
     name: "Magdalena García",
     position: "Servicios Administrativos McDonalds",
     src: "https://www.irbootcamp.com/wp-content/uploads/2024/10/mcdonalds_pequenas_acciones_grandes_cambios_empleo_programa_de_integracion_laboral_para_personas_con_habilidades_distintas_capacitacion_guatemala_soy502_11.png",
