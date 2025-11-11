@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=./" />
+  </head>
+  <body>
+    <script>
+      // Redirige a la raíz conservando el path interno
+      var redirect = window.location.pathname.replace("/tcg-web-demo", "");
+      window.location.replace("/tcg-web-demo/?redirect=" + redirect);
+    </script>
+  </body>
+</html>
