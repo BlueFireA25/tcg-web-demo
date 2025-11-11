@@ -10,7 +10,7 @@ import "./index.css";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
-      <BrowserRouter basename="/tcg-web-demo">
+      <BrowserRouter basename="/tcg-web-demo/">
         <App />
       </BrowserRouter>
     </ThemeProvider>

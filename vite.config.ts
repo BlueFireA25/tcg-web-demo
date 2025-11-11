@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/tcg-web-demo",
+  base: "/tcg-web-demo/",
   plugins: [react()],
 });
