@@ -141,7 +141,7 @@ function App() {
                     <Box display={"flex"} alignItems={"center"} gap={2} mb={2}>
                       <Box
                         component="img"
-                        src="./images/blog/support.webp"
+                        src="${import.meta.env.BASE_URL}images/blog/support.webp"
                         alt="Icono de Soporte TCG Scout"
                         sx={{
                           borderRadius: "16px 16px 0 0",
@@ -207,7 +207,7 @@ function App() {
                         >
                           <Box
                             component="img"
-                            src="./images/facebook_logo.svg"
+                            src="${import.meta.env.BASE_URL}images/facebook_logo.svg"
                             alt="Facebook de TCG Scout"
                             sx={{
                               width: "32px",
@@ -226,7 +226,7 @@ function App() {
                         >
                           <Box
                             component="img"
-                            src="./images/x_logo.svg"
+                            src="${import.meta.env.BASE_URL}images/x_logo.svg"
                             alt="X (Twitter) de TCG Scout"
                             sx={{
                               width: "32px",
@@ -245,7 +245,7 @@ function App() {
                         >
                           <Box
                             component="img"
-                            src="./images/linkedin_logo.svg"
+                            src="${import.meta.env.BASE_URL}images/linkedin_logo.svg"
                             alt="LinkedIn de TCG Scout"
                             sx={{
                               width: "32px",

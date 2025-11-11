@@ -59,7 +59,9 @@ const posts = [
       <p>
         Una auditoría de ejecución de puntos de venta consiste en verificar que las estrategias de tu negocio estén funcionando correctamente en dichos puntos. Es decir, a través de este proceso se monitorea las tiendas para garantizar que los procedimientos se ejecuten de manera correcta.
       </p>
-      <img src="./images/blog/banner2.webp" alt="Analisis de puntos de venta"/>
+      <img src="${
+        import.meta.env.BASE_URL
+      }images/blog/banner2.webp" alt="Analisis de puntos de venta"/>
       <p>A través de esta metodología se identifican fallas para proceder a corregirlas, es por ello que se recomienda realizarla de manera periódica. Incluso, podrás contratar una empresa especializada que se encargue de llevar a cabo este procedimiento.</p>
       <h3>¿Cómo funciona?</h3>
       <p>Un auditor se encarga de visitar la tienda para verificar que los estándares establecidos se estén ejecutando de forma correcta. Esta auditoría puede llevarse a cabo de dos maneras: auditoría encubierta, es decir, el personal en tienda es tomado por sorpresa; y auditoría anunciada, es decir, con aviso previo a la visita.</p>
@@ -88,7 +90,9 @@ const posts = [
       <p>
         Para cualquier negocio los datos representan una fuente de valor que permite obtener información sobre los clientes y potenciales clientes. El Big Data llegó a las organizaciones para generar mayores beneficios, reducir costes, aumentar la fidelidad de los clientes, y crear ventajas competitivas. 
       </p>
-      <img src="./images/blog/banner3.webp" alt="Big Data"/>
+      <img src="${
+        import.meta.env.BASE_URL
+      }images/blog/banner3.webp" alt="Big Data"/>
       <p>En el retail la obtención de datos y métricas es esencial para la evolución de las estrategias. La interacción del comportamiento del consumidor con la marca es una de las principales vertientes que se mide con frecuencia.</p>
       <p>Esto conlleva a que uno de los principales objetivos de la obtención de datos sea poder obtener métricas confiables sobre el comportamiento del cliente. Al obtener estos resultados, la toma de decisiones son más pertinentes entorno al negocio. Tener un mayor conocimiento del cliente permite:</p>
       <ul>
@@ -110,7 +114,9 @@ const posts = [
       <p>
         En la actualidad los esfuerzos de las empresas de consumo masivo están concentrados en asegurar que sus productos lleguen al consumidor de la manera más efectiva, lo cual conlleva a mejorar las cadenas de suministro para optimizar los procesos.
       </p>
-      <img src="./images/blog/banner4.webp" alt="Cadena de suministros"/>
+      <img src="${
+        import.meta.env.BASE_URL
+      }images/blog/banner4.webp" alt="Cadena de suministros"/>
       <p>Ante el escenario al cual nos enfrentamos en la actualidad debido al COVID-19, se presentan nuevos desafíos. La Globalización, el desarrollo de la tecnología y la cantidad de información que reciben los clientes cada día aumentan sus expectativas.</p>
       <p>Para poder cumplir con las exigencias del cliente, como la necesidad de adquirir un producto en el momento y en el lugar que ellos lo deseen, la logística se ha convertido en uno de los principales ejes de las empresas. Sus esfuerzos se concentran en asegurar que el producto llegue al consumidor de la manera más efectiva y esto implica mejorar las cadenas de suministro para optimizar los procesos.</p>
       <p>Con las exigencias del nuevo mercado, como lo es el comercio electrónico, ya no es suficiente con el buen estado del producto, también lo es el tiempo de envío.</p>
@@ -125,7 +131,9 @@ const posts = [
     date: "9 Mar 2025 - 6 min.",
     content: `
       <p>Durante estos últimos años muchos han sido los cambios producto, siendo el consumo el principal medidor de las transformaciones de la sociedad.</p>
-      <img src="./images/blog/banner5.webp" alt="Imagen de Retail"/>
+      <img src="${
+        import.meta.env.BASE_URL
+      }images/blog/banner5.webp" alt="Imagen de Retail"/>
       <p>El comportamiento de los seres humanos ha sido modificado por el confinamiento y la ansiedad de no saber qué pasará en el futuro. La forma en que nos relacionamos e interactuamos con el resto de las personas ha conllevado un cambio de rutina, cambiando a su vez los hábitos y tendencias de consumo.</p>
       <p>Los nuevos estudios que se han generado entorno al comportamiento del consumidor debido a la emergencia sanitaria han servido de brújula para el sector retail. A través de estos resultados la industria puede conocer las nuevas necesidades que tienen los consumidores y la forma en que deberán adaptarse a estos cambios.</p>
       <p>La disminución en el tráfico a tiendas físicas como supermercados, tiendas comerciales, farmacias, restaurantes, entre otros sectores ha sido evidente. La tendencia a limitar las salidas del hogar ha priorizado las compras en línea, sin duda, una tendencia generalizada a nivel global.</p>
@@ -140,7 +148,9 @@ const posts = [
     date: "27 Ene 2025 - 3 min.",
     content: `
       <p>Durante la crisis actual el Big Data ha sido una de las herramientas más utilizadas para combatir sus efectos.</p>
-      <img src="./images/blog/banner6.webp" alt="Imagen de Inteligencia Artificial"/>
+      <img src="${
+        import.meta.env.BASE_URL
+      }images/blog/banner6.webp" alt="Imagen de Inteligencia Artificial"/>
       <p>El término Big Data hace referencia a la gran cantidad de datos, estructurados como no estructurados, que engloban a las organizaciones en la actualidad. Estos datos pueden ser utilizados en la toma de decisiones y en los movimientos estratégicos del negocio.</p>
       <p>Recopilar y analizar datos en tiempo real es esencial para la toma de decisiones en tiempos de crisis como el que se vive actualmente a nivel global. El contar con información de calidad y hacer una buena gestión de los datos es fundamental para el buen uso del Big Data en las organizaciones.</p>
       <p>Adicional al Big Data existen dos elementos que en combinación lograrán el cambio en tiempo de crisis. La incorporación de Inteligencia Artificial (IA) y Machine Learning permiten una mejor gestión del negocio, logrando ser más eficientes en la toma decisiones.</p>
@@ -203,7 +213,7 @@ export default function BlogPost() {
           <Box display={"flex"} alignItems={"center"} gap={2} mb={2}>
             <Box
               component="img"
-              src="./images/blog/support.webp"
+              src="${import.meta.env.BASE_URL}images/blog/support.webp"
               alt="Icono de Soporte TCG Scout"
               sx={{
                 borderRadius: "16px 16px 0 0",
@@ -290,7 +300,7 @@ export default function BlogPost() {
               >
                 <Box
                   component="img"
-                  src="./images/facebook_logo.svg"
+                  src="${import.meta.env.BASE_URL}images/facebook_logo.svg"
                   alt="Facebook de TCG Scout"
                   sx={{
                     width: "32px",
@@ -309,7 +319,7 @@ export default function BlogPost() {
               >
                 <Box
                   component="img"
-                  src="./images/x_logo.svg"
+                  src="${import.meta.env.BASE_URL}images/x_logo.svg"
                   alt="X (Twitter) de TCG Scout"
                   sx={{
                     width: "32px",
@@ -328,7 +338,7 @@ export default function BlogPost() {
               >
                 <Box
                   component="img"
-                  src="./images/linkedin_logo.svg"
+                  src="${import.meta.env.BASE_URL}images/linkedin_logo.svg"
                   alt="LinkedIn de TCG Scout"
                   sx={{
                     width: "32px",

@@ -46,7 +46,7 @@ function ResponsiveAppBar() {
           {/* Logo */}
           <RouterLink to="/">
             <img
-              src="./images/TCG_logo.webp"
+              src="${import.meta.env.BASE_URL}images/TCG_logo.webp"
               alt="Logo TCG - Seek & Display"
               width={220}
             />

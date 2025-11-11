@@ -186,7 +186,7 @@ export default function HorizontalNonLinearStepper() {
                           >
                             <Box
                               component="img"
-                              src="./images/iso_logo.webp"
+                              src="${import.meta.env.BASE_URL}images/iso_logo.webp"
                               alt="Certificado Internacional ISO/IEC 27001"
                               sx={{
                                 width: "170px",
@@ -204,7 +204,7 @@ export default function HorizontalNonLinearStepper() {
                           >
                             <Box
                               component="img"
-                              src="./images/promising_logo.webp"
+                              src="${import.meta.env.BASE_URL}images/promising_logo.webp"
                               alt="Premio Promising"
                               sx={{
                                 width: "170px",
@@ -234,7 +234,7 @@ export default function HorizontalNonLinearStepper() {
                             >
                               <Box
                                 component="img"
-                                src="./images/googleplay_logo.webp"
+                                src="${import.meta.env.BASE_URL}images/googleplay_logo.webp"
                                 alt="Google Play"
                                 sx={{
                                   width: "170px",
@@ -264,7 +264,7 @@ export default function HorizontalNonLinearStepper() {
                             >
                               <Box
                                 component="img"
-                                src="./images/appstore_logo.webp"
+                                src="${import.meta.env.BASE_URL}images/appstore_logo.webp"
                                 alt="App Store"
                                 sx={{
                                   width: "170px",
